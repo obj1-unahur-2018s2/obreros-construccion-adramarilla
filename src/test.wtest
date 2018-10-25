@@ -1,0 +1,22 @@
+import uocra.*
+
+describe "Test1" {
+
+	const alb = new Albanil(ladrillo = 1000)
+//	const plo = new Plomero(canio = 400, arandela = 500)
+//	const gas = new Gasista(fosforos = 8000)
+//	const elec = new Electricista(cable = 200, cintaAisladora = 10000)
+	 
+/* 	fixture {
+		alb.consumePorDia()
+		np1.cargarBebida(5000)
+		np1.velocidad(12000)
+		nh1.cargarComida(5000)
+		nh1.cargarBebida(5000)
+		nh1.velocidad(12000)
+	}*/
+	
+	test "consumePorDia" {
+		assert.equals(900, alb.consumePorDia())
+		
+	}

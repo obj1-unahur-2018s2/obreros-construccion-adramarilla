@@ -23,8 +23,9 @@ object uocra {
 class Obrero {
 	var property licencia = false
 	
-	method salirDeLicencia() { licencia = true}
-	method consumo(obra)
+	method salirDeLicencia() { licencia = true}  // Si trabaja o no trabaja tienen en comun
+	method consumo(obra) //los ladrillos estan en la obra, 
+	//method tabajar() cada obrero trabaja en una obra o no
 	
 }
 
@@ -69,3 +70,4 @@ class Electricista inherits Obrero {
 
 	
 }
+
